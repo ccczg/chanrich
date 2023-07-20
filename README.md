@@ -1,5 +1,5 @@
 <h2 align="center">
-愧怍的个人博客
+Chanrich
 </h2><br>
 
 <pre align="center">
@@ -33,8 +33,6 @@
 - 🗃️ **博文视图** - 不同的博文视图，列表、宫格、卡片
 - 🌈 **资源导航** - 收集并分享有用、有意思的资源
 - 📦 **项目展示** - 展示你的项目，可用作于作品集
-
-我的修改：[Docusaurus 主题魔改](https://kuizuo.cn/docs/docusaurus-guides)
 
 ## 📊 Catalogue
 

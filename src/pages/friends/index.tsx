@@ -9,7 +9,7 @@ import styles from './styles.module.css'
 
 const TITLE = '友链'
 const DESCRIPTION = '请点击下方按钮申请友链，熟人可直接找我~'
-const ADD_FRIEND_URL = 'https://github.com/kuizuo/blog/edit/main/data/friend.ts'
+const ADD_FRIEND_URL = 'https://github.com/ccczg/blog/edit/main/data/friend.ts'
 
 function FriendHeader() {
   return (
@@ -19,11 +19,11 @@ function FriendHeader() {
       <div className={styles.siteInfo}>
         <CodeBlock language="jsx">
           {`{
-  // 本站信息
-  title: '愧怍的小站',
-  description: '道阻且长，行则将至',
-  avatar: 'https://kuizuo.cn/img/logo.png'
-}`}
+            // 本站信息
+            title: 'Chanrich',
+            description: '道阻且长，行则将至',
+            avatar: 'https://chanrich.vercel.app/img/logo.webp'
+          }`}
         </CodeBlock>
       </div>
       <a

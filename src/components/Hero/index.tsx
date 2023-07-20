@@ -31,7 +31,7 @@ function Hero() {
         <animated.div style={trails[0]} className={styles.hero_text}>
           <Translate id="homepage.hero.greet">你好! 我是</Translate>
           <span className={styles.intro__name}>
-            <Translate id="homepage.hero.name">愧怍</Translate>
+            <Translate id="homepage.hero.name">Chanrich</Translate>
           </span>
         </animated.div>
         <animated.p style={trails[1]}>
@@ -40,33 +40,6 @@ function Hero() {
           </Translate>
           <br />
           <br />
-          <Translate
-            id="homepage.hero.look"
-            values={{
-              note: (
-                <Link to="/docs/skill">
-                  <Translate id="hompage.hero.note">技术笔记</Translate>
-                </Link>
-              ),
-              project: (
-                <Link to="/project">
-                  <Translate id="hompage.hero.project">实战项目</Translate>
-                </Link>
-              ),
-              link: (
-                <Link to="/resource">
-                  <Translate id="hompage.hero.link">资源导航</Translate>
-                </Link>
-              ),
-              idea: (
-                <Link to="/tags/随笔">
-                  <Translate id="hompage.hero.idea">想法感悟</Translate>
-                </Link>
-              ),
-            }}
-          >
-            {`你可以随处逛逛，查看{note}、{project}、{link}、以及我的{idea}。`}
-          </Translate>
         </animated.p>
         <SocialLinks style={trails[2]} />
         <animated.div style={trails[3]}>
@@ -98,23 +71,14 @@ export function SocialLinks({ ...prop }) {
 
   return (
     <animated.div className={styles.social__links} {...prop}>
-      <a href="/rss.xml" target="_blank">
-        <Icon icon="ri:rss-line" />
-      </a>
       <a href={socials.github} target="_blank">
         <Icon icon="ri:github-line" />
-      </a>
-      <a href={socials.juejin} target="_blank">
-        <JuejinIcon />
       </a>
       <a href={socials.qq} target="_blank">
         <Icon icon="ri:qq-line" />
       </a>
       <a href={socials.twitter} target="_blank">
         <Icon icon="ri:twitter-line" />
-      </a>
-      <a href={socials.zhihu} target="_blank">
-        <Icon icon="ri:zhihu-line" />
       </a>
     </animated.div>
   )

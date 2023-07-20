@@ -1,16 +1,16 @@
 const path = require('path')
-const beian = '闽ICP备2020017848号-2'
+const beian = ''
 
 const announcementBarContent = ''
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '愧怍的小站',
+  title: "Chanrich's website",
   titleDelimiter: '-',
-  url: 'https://kuizuo.cn',
+  url: 'https://chanrich.vercel.app',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'kuizuo',
+  organizationName: 'Chanrich',
   projectName: 'blog',
   tagline: '道阻且长，行则将至',
   /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -23,15 +23,15 @@ const config = {
     metadata: [
       {
         name: 'keywords',
-        content: '愧怍',
+        content: 'Chanrich',
       },
       {
         name: 'keywords',
-        content: 'blog, javascript, typescript, node, react, vue, web',
+        content: 'blog, javascript, java, node, spring, vue, web',
       },
       {
         name: 'keywords',
-        content: '编程爱好者, Web开发者, 写过爬虫, 学过逆向，现在主攻ts全栈',
+        content: '编程爱好者, Web开发者',
       },
     ],
     docs: {
@@ -40,16 +40,16 @@ const config = {
       },
     },
     navbar: {
-      title: '愧怍',
+      title: 'Chanrich',
       logo: {
-        alt: '愧怍',
+        alt: 'Chanrich',
         src: 'img/logo.webp',
         srcDark: 'img/logo.webp',
       },
       hideOnScroll: true,
       items: [
         {
-          label: '学习',
+          label: '博客',
           position: 'right',
           items: [
             {
@@ -63,47 +63,13 @@ const config = {
             {
               label: '笔记',
               to: 'docs/skill/',
-            },
-            {
-              label: '工具推荐',
-              to: 'docs/tools/',
-            },
-            {
-              label: '前端示例',
-              to: 'https://example.kuizuo.cn',
-            },
+            }
           ],
         },
         {
-          label: '工具',
+          label: '友链',
           position: 'right',
-          items: [
-            {
-              label: 'API服务',
-              to: 'https://api.kuizuo.cn',
-            },
-            {
-              label: 'JS代码还原',
-              to: 'https://js-de-obfuscator.kuizuo.cn',
-            },
-            {
-              label: 'CyberChef加密',
-              to: 'https://cipher.kuizuo.cn',
-            },
-            {
-              label: 'Transform',
-              to: 'https://transform.kuizuo.cn',
-            },
-            {
-              label: '网盘',
-              to: 'https://pan.kuizuo.cn',
-            },
-          ],
-        },
-        {
-          label: '导航',
-          position: 'right',
-          to: 'resource',
+          to: 'friends',
         },
         {
           label: '项目',
@@ -137,11 +103,7 @@ const config = {
             {
               label: '实战项目',
               to: 'project',
-            },
-            {
-              label: '前端示例',
-              to: 'https://example.kuizuo.cn',
-            },
+            }
           ],
         },
         {
@@ -153,16 +115,8 @@ const config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/kuizuo',
-            },
-            {
-              label: '掘金',
-              href: 'https://juejin.cn/user/1565318510545901',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discord.gg/M8cVcjDxkz',
-            },
+              href: 'https://github.com/ccczg',
+            }
           ],
         },
         {
@@ -174,22 +128,12 @@ const config = {
               to: 'friends',
             },
             {
-              label: '导航',
-              position: 'right',
-              to: 'resource',
-            },
-            // {
-            //   label: '我的站点',
-            //   position: 'right',
-            //   to: 'website',
-            // },
-            {
               html: `<a href="https://docusaurus.io/zh-CN/" target="_blank"><img style="height:50px;margin-top:0.5rem" src="/img/buildwith.png" /><a/>`,
             },
           ],
         },
       ],
-      copyright: `<p><a href="http://beian.miit.gov.cn/" >${beian}</a></p><p>Copyright © 2020 - PRESENT 愧怍 Built with Docusaurus.</p>`,
+      copyright: `<p><a href="http://beian.miit.gov.cn/" >${beian}</a></p><p>Copyright © 2023 - PRESENT Chanrich Built with Docusaurus.</p>`,
     },
     prism: {
       theme: require('prism-react-renderer/themes/vsLight'),
@@ -243,12 +187,10 @@ const config = {
       playgroundPosition: 'top',
     },
     socials: {
-      github: 'https://github.com/kuizuo',
-      twitter: 'https://twitter.com/kuizuo',
-      juejin: 'https://juejin.cn/user/1565318510545901',
+      github: 'https://github.com/ccczg',
+      twitter: 'https://twitter.com/ccczg',
       csdn: 'https://blog.csdn.net/kuizuo12',
-      qq: 'https://wpa.qq.com/msgrd?v=3&amp;uin=911993023&amp;site=qq',
-      zhihu: 'https://www.zhihu.com/people/kuizuo',
+      qq: 'https://wpa.qq.com/msgrd?v=3&amp;uin=1418045110&amp;site=qq',
       cloudmusic: 'https://music.163.com/#/user/home?id=1333010742',
     },
   },
@@ -257,7 +199,7 @@ const config = {
       tagName: 'meta',
       attributes: {
         name: 'description',
-        content: '愧怍的个人博客',
+        content: "Chanrich's website",
       },
     },
   ],

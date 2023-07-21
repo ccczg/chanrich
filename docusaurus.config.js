@@ -16,10 +16,6 @@ const config = {
   /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
   themeConfig: {
     image: 'img/logo.png',
-    // announcementBar: {
-    //   id: 'announcementBar-3',
-    //   content: announcementBarContent,
-    // },
     metadata: [
       {
         name: 'keywords',
@@ -189,9 +185,7 @@ const config = {
     socials: {
       github: 'https://github.com/ccczg',
       twitter: 'https://twitter.com/ccczg',
-      csdn: 'https://blog.csdn.net/kuizuo12',
-      qq: 'https://wpa.qq.com/msgrd?v=3&amp;uin=1418045110&amp;site=qq',
-      cloudmusic: 'https://music.163.com/#/user/home?id=1333010742',
+      qq: 'https://wpa.qq.com/msgrd?v=3&amp;uin=1418045110&amp;site=qq'
     },
   },
   headTags: [
@@ -223,12 +217,10 @@ const config = {
         gtag: {
           trackingID: 'G-S4SD5NXWXF',
           anonymizeIP: true,
-        },
-        // debug: true,
+        }
       }),
     ],
   ],
-  // themes: ['@docusaurus/theme-live-codeblock'],
   plugins: [
     'docusaurus-plugin-matomo',
     'docusaurus-plugin-image-zoom',
@@ -243,7 +235,7 @@ const config = {
         editUrl: ({ locale, blogDirPath, blogPath, permalink }) =>
           `https://github.com/kuizuo/blog/edit/main/${blogDirPath}/${blogPath}`,
         editLocalizedFiles: false,
-        blogDescription: '愧怍的个人博客',
+        blogDescription: "Chanrich's Blog",
         blogSidebarCount: 10,
         blogSidebarTitle: '最近更新',
         postsPerPage: 10,
@@ -252,8 +244,8 @@ const config = {
           defaultReadingTime({ content, options: { wordsPerMinute: 300 } }),
         feedOptions: {
           type: 'all',
-          title: '愧怍',
-          copyright: `Copyright © ${new Date().getFullYear()} 愧怍 Built with Docusaurus.<p><a href="http://beian.miit.gov.cn/" class="footer_lin">${beian}</a></p>`,
+          title: 'Chanrich',
+          copyright: `Copyright © ${new Date().getFullYear()} Chanrich Built with Docusaurus.<p><a href="http://beian.miit.gov.cn/" class="footer_lin">${beian}</a></p>`,
         },
       },
     ],

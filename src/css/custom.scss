@@ -234,10 +234,7 @@ html[data-theme='dark'] .theme-code-block {
 
 /* 首页背景 */
 .container-wrapper {
-  background: var(--content-background-color);
-
-  /*   box-shadow: 0 -16px 24px var(--post-shadow-color);
-  box-shadow: var(--blog-item-shadow); */
+  background: var(--content-background-color); 
 }
 
 /* navbar */
@@ -626,8 +623,6 @@ code {
 .bloginfo__content {
   position: sticky;
   top: 1rem;
-
-  // top: calc(var(--ifm-navbar-height) + 1rem);
 }
 
 .bloginfo__card {
@@ -712,22 +707,6 @@ code {
   border: none;
 }
 
-/* .bloginfo__num-item::after {
-  content: attr(data-tips);
-  position: absolute;
-  top: 0;
-  margin: 0 auto;
-  white-space: nowrap;
-  opacity: 0;
-  transform: translateY(-150%);
-  transition: 0.2s;
-}
-
-.bloginfo__num-item:hover::after {
-  opacity: 1;
-  transform: translateY(-100%);
-} */
-
 .bloginfo__tags {
   margin-top: 0.5rem;
   display: flex;
@@ -793,7 +772,6 @@ div[class^='announcementBar_'] {
 }
 
 .blogPost-container {
-  /* border-radius: var(--ifm-pagination-nav-border-radius); */
   margin-top: 0;
   border-radius: 12px;
   background: var(--blog-item-background-color);

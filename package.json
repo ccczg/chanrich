@@ -10,7 +10,7 @@
     "url": "https://github.com/kuizuo/blog",
     "type": "git"
   },
-  "homepage": "https://kuizuo.cn",
+  "homepage": "https://chanrich.vercel.app",
   "license": "MIT",
   "scripts": {
     "docusaurus": "docusaurus",

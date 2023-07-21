@@ -75,7 +75,3 @@ Build
 ```sh
 yarn run build
 ```
-
-## 📝License
-
-[MIT](./LICENSE)

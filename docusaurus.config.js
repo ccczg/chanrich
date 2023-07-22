@@ -5,7 +5,7 @@ const announcementBarContent = ''
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Chanrich's website",
+  title: "Chanrich",
   titleDelimiter: '-',
   url: 'https://chanrich.vercel.app',
   baseUrl: '/',
@@ -82,7 +82,7 @@ const config = {
       style: 'dark',
       links: [
         {
-          title: '学习',
+          title: '博客',
           items: [
             {
               label: '标签',
@@ -153,9 +153,9 @@ const config = {
       maxHeadingLevel: 4,
     },
     algolia: {
-      appId: 'GV6YN1ODMO',
-      apiKey: '50303937b0e4630bec4a20a14e3b7872',
-      indexName: 'kuizuo',
+      appId: '7IGI3SYT7O',
+      apiKey: '92315813c2b0fc7c6543dcc2e4305bf8',
+      indexName: 'chanrich',
     },
     zoom: {
       selector: '.markdown :not(em) > img',

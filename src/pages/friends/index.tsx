@@ -9,7 +9,7 @@ import styles from './styles.module.css'
 
 const TITLE = '友链'
 const DESCRIPTION = '请点击下方按钮申请友链，熟人可直接找我~'
-const ADD_FRIEND_URL = 'https://github.com/ccczg/blog/edit/main/data/friend.ts'
+const ADD_FRIEND_URL = 'https://github.com/ccczg/chanrich/edit/main/data/friend.ts'
 
 function FriendHeader() {
   return (

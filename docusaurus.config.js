@@ -172,10 +172,10 @@ const config = {
       jsLoader: 'matomo.js',
     },
     giscus: {
-      repo: 'kuizuo/blog',
-      repoId: 'MDEwOlJlcG9zaXRvcnkzOTc2MjU2MTI=',
+      repo: 'ccczg/chanrich',
+      repoId: 'R_kgDOJ9r5PQ',
       category: 'General',
-      categoryId: 'DIC_kwDOF7NJDM4CPK95',
+      categoryId: 'DIC_kwDOJ9r5Pc4CYDwP',
       theme: 'light',
       darkTheme: 'dark',
     },

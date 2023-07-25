@@ -10,6 +10,12 @@ export const Friends: Friend[] = [
     description: '这个海螺什么都知道',
     website: 'https://www.conchbrain.club/#home',
     avatar: 'https://www.conchbrain.club/favicon.ico',
+  },
+  {
+    title: 'Mixstore',
+    description: '安全、可靠且丰富多样的软件资源平台',
+    website: 'https://mixstore.conchbrain.club/',
+    avatar: 'https://chanrich.netlify.app/img/project/mixStore.png',
   }
 ]
 

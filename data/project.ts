@@ -7,6 +7,15 @@ export const projects: Project[] = [
     source: 'https://github.com/ccczg/chanrich',
     tags: ['opensource', 'design', 'favorite'],
     type: 'web',
+  },
+  {
+    title: "Mixstore",
+    description: '安全、可靠且丰富多样的软件资源平台',
+    preview: '/img/project/mixStore.png',
+    website: 'https://mixstore.conchbrain.club/',
+    source: 'https://mixstore.conchbrain.club/',
+    tags: ['design', 'favorite'],
+    type: 'web',
   }
 ]
 

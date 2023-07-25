@@ -381,7 +381,7 @@
     "description": "The live editor label of the live codeblocks"
   },
   "showcase.card.sourceLink":{
-    "message": "源码",
+    "message": "访问",
     "description": "The label for the source link of a showcase card"
   }
 }

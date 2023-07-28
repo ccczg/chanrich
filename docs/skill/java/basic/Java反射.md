@@ -1,6 +1,7 @@
 ---
+id: java-reflect
 slug: java-reflect
-title: java反射
+title: Java反射
 date: 2022-01-16
 authors: chanrich
 tags: [java]
@@ -221,5 +222,3 @@ System.out.println(interfaces.length);
 - getModifiers 获取标识符
 - getAnnotations 获取注解
 - getPackage 获取包名
-
-具体代码就不演示了。

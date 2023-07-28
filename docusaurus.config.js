@@ -5,12 +5,12 @@ const announcementBarContent = ''
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Chanrich",
+  title: "🥰Chanrich",
   titleDelimiter: '-',
   url: 'https://chanrich.vercel.app',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'Chanrich',
+  organizationName: '🥰Chanrich',
   projectName: 'blog',
   tagline: '道阻且长，行则将至',
   /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -45,32 +45,46 @@ const config = {
       hideOnScroll: true,
       items: [
         {
-          label: '博客',
+          label: '👨🏻‍🌾 博客',
           position: 'right',
           items: [
             {
-              label: '标签',
+              label: '#️⃣标签',
               to: 'tags',
             },
             {
-              label: '归档',
+              label: '🗃️归档',
               to: 'archive',
             },
             {
-              label: '笔记',
+              label: '📝笔记',
               to: 'docs/skill/',
             }
           ],
         },
         {
-          label: '友链',
+          label: '👋友链',
           position: 'right',
           to: 'friends',
         },
         {
-          label: '项目',
+          label: '👨‍💻项目',
           position: 'right',
           to: 'project',
+        },
+        {
+          label: '👫生活',
+          position: 'right',
+          items: [
+            {
+              label: '📷相册',
+              to: 'photo',
+            },
+            {
+              label: '📹视频',
+              to: 'video',
+            }
+          ]
         },
         {
           type: 'localeDropdown',

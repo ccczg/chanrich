@@ -82,7 +82,7 @@ const config = {
             },
             {
               label: '📹视频',
-              to: 'video',
+              to: 'photo',
             }
           ]
         },

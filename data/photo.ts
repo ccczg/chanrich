@@ -1,4 +1,4 @@
-export const Friends: Friend[] = [
+export const Photo: Photo[] = [
     {
       title: 'LLLXY',
       description: 'Excellent .NET developer',
@@ -7,7 +7,7 @@ export const Friends: Friend[] = [
     }
   ]
   
-  export type Friend = {
+  export type Photo = {
     title: string
     description: string
     website: string

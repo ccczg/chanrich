@@ -167,9 +167,9 @@ const config = {
       maxHeadingLevel: 4,
     },
     algolia: {
-      appId: '7IGI3SYT7O',
-      apiKey: '92315813c2b0fc7c6543dcc2e4305bf8',
-      indexName: 'chanrich',
+      appId: '9RXU3H0CRA',
+      apiKey: '4e3eb2799d9e8c9ee42cd5bfab05e3c9',
+      indexName: 'netlify_ee05f96d-a694-4e99-979a-650d4ba2846d_main_all',
     },
     zoom: {
       selector: '.markdown :not(em) > img',

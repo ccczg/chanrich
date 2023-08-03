@@ -8,13 +8,13 @@ import styles from './styles.module.css'
 const TITLE = '相册'
 
 function FriendCards() {
-  const photo = Photo
+  const photos = Photo
   return (
     <section className="margin-top--lg margin-bottom--lg">
       <div className="container">
         <ul className={styles.showcaseList}>
-          {photo.map(friend => (
-            <PhotoCard key={friend.avatar} friend={friend} />
+          {photos.map(photo => (
+            <PhotoCard key={photo.cover} photo={photo} />
           ))}
         </ul>
       </div>

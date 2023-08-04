@@ -14,7 +14,7 @@ function FriendCards() {
       <div className="container">
         <ul className={styles.showcaseList}>
           {photos.map(photo => (
-            <PhotoCard key={photo.cover} photo={photo} />
+            <PhotoCard key={photo.url} photo={photo} />
           ))}
         </ul>
       </div>

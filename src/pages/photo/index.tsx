@@ -1,7 +1,7 @@
 import React from 'react'
 import Layout from '@theme/Layout'
 import PhotoCard from './_components/PhotoCard'
-import { Photo, type photo } from '@site/data/photo'
+import { Photo } from '@site/data/photo'
 
 import styles from './styles.module.css'
 

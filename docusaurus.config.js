@@ -79,10 +79,6 @@ const config = {
             {
               label: '📷相册',
               to: 'photo',
-            },
-            {
-              label: '📹视频',
-              to: 'photo',
             }
           ]
         },

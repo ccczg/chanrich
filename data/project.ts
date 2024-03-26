@@ -1,14 +1,5 @@
 export const projects: Project[] = [
   {
-    title: "Chanrich's blog",
-    description: '🦖 基于 Docusaurus 静态网站生成器实现个人博客',
-    preview: '/img/project/blog.png',
-    website: 'https://chanrich.vercel.app',
-    source: 'https://github.com/ccczg/chanrich',
-    tags: ['opensource', 'design', 'favorite'],
-    type: 'web',
-  },
-  {
     title: "Mixstore",
     description: '安全、可靠且丰富多样的软件资源平台',
     preview: '/img/project/mixStore.png',
